@@ -39,7 +39,7 @@ To do this, count the number of times a depth measurement increases from the pre
 263 (increased)<br><br>
 In this example, there are 7 measurements that are larger than the previous measurement.
 <br>
-How many measurements are larger than the previous measurement?
+How many measurements are larger than the previous measurement?<br>
 Data in data.txt
 
 ANSWER: 1766
