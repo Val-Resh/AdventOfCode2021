@@ -32,7 +32,7 @@ ANSWER: 1480518
 
 """
 
-
+##PART ONE
 with open("inputs.txt", "r") as file:
     position = 0
     depth = 0
