@@ -54,6 +54,8 @@ with open("input.txt", "r") as input:
         x2 = int(x2.strip())
         y1 = int(y1.strip())
         y2 = int(y2.strip())
+        x1,x2 = min(x1,x2),max(x1,x2)
+        y1,y2 = min(y1,y2),max(y1,y2)
         if x1 == x2 or y1 == y2:
             for x in range(x1,x2+1):
                 for y in range(y1,y2+1):
