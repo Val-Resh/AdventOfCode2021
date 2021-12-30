@@ -220,14 +220,7 @@ public class Day11 {
         }
         coordinates.clear();
     }
-    private static void printArray(int[][] array){
-        for(int[] x : array){
-            for(int y : x){
-                System.out.print(y);
-            }
-            System.out.print("\n");
-        }
-    }
+    
     private static int[][] getArray() {
         int[][] array = new int[10][10];
         try {
